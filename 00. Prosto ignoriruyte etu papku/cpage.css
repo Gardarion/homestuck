@@ -1,0 +1,323 @@
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: #535353;
+}
+
+img {
+  border: 0;
+}
+
+#page {
+  width: 950px;
+  margin: 0px auto;
+  background-color: #535353;
+}
+
+.row {
+  display: table-row;
+}
+
+.banner {
+  background: url('../images/bannerframe.png') no-repeat;
+  border-top: 10px solid #535353;
+  border-bottom: 10px solid #535353;
+  vertical-align: middle;
+}
+
+.header {
+  background: #efefef;
+  border-bottom: 7px solid #c6c6c6;
+}
+
+.footer {
+  background: #efefef;
+  border-top: 7px solid #c6c6c6;
+}
+
+.copyright {
+  background: #efefef;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.copyright a {
+  color: #000000;
+}
+
+.nav {
+  color: #FFFFFF;
+  background: #5a5a5a;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px 0 0 0;
+}
+.nav a {
+  text-decoration:       underline;
+  color:                 #FFFFFF;
+}
+
+.outer {
+  color:                 blue;
+}
+
+.inner {
+  border:                1px solid #000;
+  padding:               3px;
+  margin:                3px;
+}
+
+.sidebar {
+  float:                 left;
+  width:                 262px;
+  border-right:          12px solid #535353;
+  background:            #c6c6c6;
+}
+
+.sidebar_content {
+  border-top:            7px solid #efefef;
+  border-right:          7px solid #efefef;
+  border-bottom:         7px solid #efefef;
+  padding:               10px;
+}
+
+p.latest_pages {
+  font-size:             10px;
+  text-align:            left;
+  font-weight:           bold;
+}
+
+p.log_page_link {
+  text-align:            center;
+  font-size:             16px;
+  font-weight:           bold;
+}
+
+.content {
+  float:                 left;
+  width:                 676px;
+}
+
+.content_inner {
+  background:            #EEEEEE;
+  height:                100%;
+  border-left:           7px solid #c6c6c6;
+  border-top:            7px solid #c6c6c6;
+  border-bottom:         7px solid #c6c6c6;
+  padding:               10px;
+}
+
+h1 {
+  -webkit-margin-before: 0px;
+  -webkit-margin-after:  0px;
+  -webkit-margin-start:  0px;
+  -webkit-margin-end:    0px;
+  font-size:             xx-large;
+  font-weight:           bold;
+  font-family:           "Courier New", monospace;
+  color:                 #000000;
+}
+
+
+.title h1 {
+  padding-top:           5px;
+  padding-bottom:        10px;
+  margin:                0;
+}
+
+.mspa_title h1 {
+  padding-top:           15px;
+  padding-bottom:        14px;
+  margin:                0;
+}
+
+.news {
+  background:            #efefef;
+  text-align:            left;
+  padding:               15px;
+}
+
+.mspa_news {
+  background:            #efefef;
+  text-align:            left;
+  padding:               15px;
+}
+
+.news_links a {
+  color:                 #0000FF;
+  font-weight:           bold;
+  font-family:           Verdana;
+  font-size:             10px;
+}
+
+.news_entry {
+  width:                 633px;
+  margin-bottom:         30px;
+}
+
+.notice, .success, .warning, .error {
+  padding:               5px;
+  font-family:           Verdana;
+  font-size:             10px;
+  text-align:            left;
+  color:                 rgb(255,255,255);
+  -webkit-margin-before: 1px;
+  -webkit-margin-after:  1px;
+}
+
+.notice a, .success a, .warning a, .error a {
+  color:                 rgb(255,255,255);
+}
+
+.notice {
+  background-color:      rgb(0,79,168);
+}
+
+.success {
+  background-color:      rgb(17,168,0);
+}
+
+.warning {
+  background-color:      rgb(196,128,0);
+}
+
+.error {
+  background-color:      rgb(168,0,0);
+}
+
+span.notice_title {
+  font-weight:           bold;
+  font-family:           Verdana;
+  font-size:             12px;
+}
+
+.nav a.navlink1 {
+  color:                 #FFFFFF;
+}
+.nav a.navlink2 {
+  color:                 #29ff4a;
+}
+.nav a.navlink3 {
+  color:                 #39d5f6;
+}
+.nav a.navlink4 {
+  color:                 #f7f72a;
+}
+.nav a.navlink5 {
+  color:                 #ffb529;
+}
+
+.bottomlinks {
+  font-weight:           bold;
+  font-size:             10px;
+  margin:                2px 0 2px 0;
+}
+
+.bottomlinks a {
+  color:                 #0000FF;
+}
+
+
+.advlink {
+  text-align:            center;
+  font-size:             24px;
+}
+
+.logcontent {
+  font-size:             10px;
+  font-weight:           bold;
+  color:                 #000;
+  text-align:            left;
+}
+
+.mapcontent,.admincontent, .pagecontent, .alladvcontent {
+  color:                 #000000;
+}
+
+.news_entry h2 {
+  font-size: 24px;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after:  0px;
+  -webkit-margin-start:  0px;
+  -webkit-margin-end:    0px;
+  margin:                0;
+}
+
+.news_entry_info {
+  font-style:            italic;
+}
+
+.news_entry_content {
+  text-align:            justify;
+  padding:               3px;
+  margin-top:            3px;
+  margin-bottom:         5px;
+  border-top:            1px solid rgb(211, 211, 211);
+}
+
+.mspa_content {
+  background:            #c6c6c6;
+  text-align:            center;
+  margin:                0px;
+  padding:               0px;
+  border-bottom:         10px solid #535353;
+}
+
+.mspa_content_inner {
+  border-top:            7px solid #c6c6c6;
+  border-bottom:         20px solid #c6c6c6;
+  background:            #EEEEEE;
+  min-width:             650px;
+  width:                 650px;
+  margin:                0px auto;
+}
+
+.mspa_bottomlinks {
+  text-align:            left;
+  margin:                0 0 20px 20px;
+}
+
+.mspa_sidebar_nobanner {
+  margin-top:            12px;
+}
+
+.mspa_page_pictures {
+  margin-bottom:         25px;
+}
+
+.mspa_page_text {
+  font-weight:           bold;
+  font-family:           "Courier New", monospace;
+  color:                 #000000;
+  margin:                0 25px 20px 25px;
+  line-height:           1.35;
+}
+
+.mspa_next_link {
+  font-size:             18pt;
+  margin:                20px 0 20px 0;
+}
+
+.spoiler_outer {
+  border:                1px dashed gray;
+  padding:               1px;
+}
+
+.spoiler_outer table {
+  margin: 0 20px 0 20px;
+}
+
+.spoiler {
+}
+
+.spoiler p {
+  text-align: left;
+  word-break: break-word;
+}
