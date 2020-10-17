@@ -1,0 +1,42 @@
+/* Some basic styling */
+
+
+/*
+-------------------------------------------------------
+Put your css style for the firefly box below here.
+NOTE:  The width and height values are fixed inside javascript code that handles the animation
+
+-------------------------------------------------------
+
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+*/
+.fireflies {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 714px;
+	height: auto;
+	/*height:  277px;*/
+	padding-right: 15px;
+	padding-left: 15px;
+	z-index: 1;
+}
+	
+.boxtemplate {
+  z-index: 10;
+  padding-left: 0;
+  padding-right: 0;
+  position: absolute;
+  background: transparent;
+/*  box-shadow: inset 0 0 3px #000;*/
+/*  border-radius: 5px; */
+  border: none;
+  overflow: visible;
+}
+.boxtemplate:hover {
+display: none;
+background: transparent;
+}
