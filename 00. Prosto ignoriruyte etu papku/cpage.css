@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   color: #000000;
   text-align: center;
-  margin: 0px;
+margin: 0;
   padding: 0px;
   background-color: #535353;
 }
@@ -13,20 +13,21 @@ img {
 }
 
 #page {
-  width: 950px;
+  max-width: 950px;
   margin: 0px auto;
   background-color: #535353;
 }
 
-.row {
-  display: table-row;
+ div table {
+width: 100%!important;
 }
 
-.banner {
-  background: url('../images/bannerframe.png') no-repeat;
-  border-top: 10px solid #535353;
-  border-bottom: 10px solid #535353;
-  vertical-align: middle;
+ center table {
+width: 600px!important;
+}
+
+.row {
+  display: table-row;
 }
 
 .header {
@@ -239,85 +240,4 @@ span.notice_title {
 
 .mapcontent,.admincontent, .pagecontent, .alladvcontent {
   color:                 #000000;
-}
-
-.news_entry h2 {
-  font-size: 24px;
-  -webkit-margin-before: 0px;
-  -webkit-margin-after:  0px;
-  -webkit-margin-start:  0px;
-  -webkit-margin-end:    0px;
-  margin:                0;
-}
-
-.news_entry_info {
-  font-style:            italic;
-}
-
-.news_entry_content {
-  text-align:            justify;
-  padding:               3px;
-  margin-top:            3px;
-  margin-bottom:         5px;
-  border-top:            1px solid rgb(211, 211, 211);
-}
-
-.mspa_content {
-  background:            #c6c6c6;
-  text-align:            center;
-  margin:                0px;
-  padding:               0px;
-  border-bottom:         10px solid #535353;
-}
-
-.mspa_content_inner {
-  border-top:            7px solid #c6c6c6;
-  border-bottom:         20px solid #c6c6c6;
-  background:            #EEEEEE;
-  min-width:             650px;
-  width:                 650px;
-  margin:                0px auto;
-}
-
-.mspa_bottomlinks {
-  text-align:            left;
-  margin:                0 0 20px 20px;
-}
-
-.mspa_sidebar_nobanner {
-  margin-top:            12px;
-}
-
-.mspa_page_pictures {
-  margin-bottom:         25px;
-}
-
-.mspa_page_text {
-  font-weight:           bold;
-  font-family:           "Courier New", monospace;
-  color:                 #000000;
-  margin:                0 25px 20px 25px;
-  line-height:           1.35;
-}
-
-.mspa_next_link {
-  font-size:             18pt;
-  margin:                20px 0 20px 0;
-}
-
-.spoiler_outer {
-  border:                1px dashed gray;
-  padding:               1px;
-}
-
-.spoiler_outer table {
-  margin: 0 20px 0 20px;
-}
-
-.spoiler {
-}
-
-.spoiler p {
-  text-align: left;
-  word-break: break-word;
 }
