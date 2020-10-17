@@ -19,22 +19,22 @@ img {
 }
 @media screen and (max-width: 1023px) {
   #page {
-width: 650px!important;
+width: 100vw!important;
   }
 @media screen and (max-width: 1023px) {
   .row>table {
-width: 650px!important;
+width: 100vw!important;
   }
 
 
 @media screen and (max-width: 1023px) {
   .row>table>tbody>tr>td {
-width: 650px!important;
+width: 100vw!important;
   }
 
 @media screen and (max-width: 1023px) {
   .row>table>tbody>tr>td>table {
-width: 650px!important;
+width: 100vw!important;
   }
 
 @media screen and (max-width: 1023px) {
