@@ -1,0 +1,266 @@
+<sburb description="third room">
+
+<dependencies>
+  <dependency>chars/dave.xml</dependency>
+  <dependency>chars/rose.xml</dependency>
+</dependencies>
+
+<assets>
+	<asset name='thirdRoomBG_0_0' type='graphic'>backgrounds/slices/thirdRoomBG_0_0.htm</asset>
+<asset name='thirdRoomBG_0_1' type='graphic'>backgrounds/slices/thirdRoomBG_0_1.htm</asset>
+<asset name='thirdRoomBG_0_2' type='graphic'>backgrounds/slices/thirdRoomBG_0_2.htm</asset>
+<asset name='thirdRoomBG_0_3' type='graphic'>backgrounds/slices/thirdRoomBG_0_3.htm</asset>
+<asset name='thirdRoomBG_1_0' type='graphic'>backgrounds/slices/thirdRoomBG_1_0.htm</asset>
+<asset name='thirdRoomBG_1_1' type='graphic'>backgrounds/slices/thirdRoomBG_1_1.htm</asset>
+<asset name='thirdRoomBG_1_2' type='graphic'>backgrounds/slices/thirdRoomBG_1_2.htm</asset>
+<asset name='thirdRoomBG_1_3' type='graphic'>backgrounds/slices/thirdRoomBG_1_3.htm</asset>
+<asset name='thirdRoomBG_2_0' type='graphic'>backgrounds/slices/thirdRoomBG_2_0.htm</asset>
+<asset name='thirdRoomBG_2_1' type='graphic'>backgrounds/slices/thirdRoomBG_2_1.htm</asset>
+<asset name='thirdRoomBG_2_2' type='graphic'>backgrounds/slices/thirdRoomBG_2_2.htm</asset>
+<asset name='thirdRoomBG_2_3' type='graphic'>backgrounds/slices/thirdRoomBG_2_3.htm</asset>
+<asset name='thirdRoomBG_3_0' type='graphic'>backgrounds/slices/thirdRoomBG_3_0.htm</asset>
+<asset name='thirdRoomBG_3_1' type='graphic'>backgrounds/slices/thirdRoomBG_3_1.htm</asset>
+<asset name='thirdRoomBG_3_2' type='graphic'>backgrounds/slices/thirdRoomBG_3_2.htm</asset>
+<asset name='thirdRoomBG_3_3' type='graphic'>backgrounds/slices/thirdRoomBG_3_3.htm</asset>
+<asset name='thirdRoomBG_4_0' type='graphic'>backgrounds/slices/thirdRoomBG_4_0.htm</asset>
+<asset name='thirdRoomBG_4_1' type='graphic'>backgrounds/slices/thirdRoomBG_4_1.htm</asset>
+<asset name='thirdRoomBG_4_2' type='graphic'>backgrounds/slices/thirdRoomBG_4_2.htm</asset>
+<asset name='thirdRoomBG_4_3' type='graphic'>backgrounds/slices/thirdRoomBG_4_3.htm</asset>
+<asset name='thirdRoomBG_5_0' type='graphic'>backgrounds/slices/thirdRoomBG_5_0.htm</asset>
+<asset name='thirdRoomBG_5_1' type='graphic'>backgrounds/slices/thirdRoomBG_5_1.htm</asset>
+<asset name='thirdRoomBG_5_2' type='graphic'>backgrounds/slices/thirdRoomBG_5_2.htm</asset>
+<asset name='thirdRoomBG_5_3' type='graphic'>backgrounds/slices/thirdRoomBG_5_3.htm</asset>
+<asset name='thirdRoomFG_0_2' type='graphic'>backgrounds/slices/thirdRoomFG_0_2.htm</asset>
+<asset name='thirdRoomFG_0_3' type='graphic'>backgrounds/slices/thirdRoomFG_0_3.htm</asset>
+<asset name='thirdRoomFG_1_0' type='graphic'>backgrounds/slices/thirdRoomFG_1_0.htm</asset>
+<asset name='thirdRoomFG_1_1' type='graphic'>backgrounds/slices/thirdRoomFG_1_1.htm</asset>
+<asset name='thirdRoomFG_1_2' type='graphic'>backgrounds/slices/thirdRoomFG_1_2.htm</asset>
+<asset name='thirdRoomFG_1_3' type='graphic'>backgrounds/slices/thirdRoomFG_1_3.htm</asset>
+<asset name='thirdRoomFG_2_0' type='graphic'>backgrounds/slices/thirdRoomFG_2_0.htm</asset>
+<asset name='thirdRoomFG_2_1' type='graphic'>backgrounds/slices/thirdRoomFG_2_1.htm</asset>
+<asset name='thirdRoomFG_2_2' type='graphic'>backgrounds/slices/thirdRoomFG_2_2.htm</asset>
+<asset name='thirdRoomFG_2_3' type='graphic'>backgrounds/slices/thirdRoomFG_2_3.htm</asset>
+<asset name='thirdRoomFG_3_0' type='graphic'>backgrounds/slices/thirdRoomFG_3_0.htm</asset>
+<asset name='thirdRoomFG_3_1' type='graphic'>backgrounds/slices/thirdRoomFG_3_1.htm</asset>
+<asset name='thirdRoomFG_3_2' type='graphic'>backgrounds/slices/thirdRoomFG_3_2.htm</asset>
+<asset name='thirdRoomFG_3_3' type='graphic'>backgrounds/slices/thirdRoomFG_3_3.htm</asset>
+<asset name='thirdRoomFG_4_0' type='graphic'>backgrounds/slices/thirdRoomFG_4_0.htm</asset>
+<asset name='thirdRoomFG_4_1' type='graphic'>backgrounds/slices/thirdRoomFG_4_1.htm</asset>
+<asset name='thirdRoomFG_4_2' type='graphic'>backgrounds/slices/thirdRoomFG_4_2.htm</asset>
+<asset name='thirdRoomFG_4_3' type='graphic'>backgrounds/slices/thirdRoomFG_4_3.htm</asset>
+<asset name='thirdRoomFG_5_1' type='graphic'>backgrounds/slices/thirdRoomFG_5_1.htm</asset>
+<asset name='thirdRoomFG_5_2' type='graphic'>backgrounds/slices/thirdRoomFG_5_2.htm</asset>
+<asset name='thirdRoomFG_5_3' type='graphic'>backgrounds/slices/thirdRoomFG_5_3.htm</asset>
+
+	<asset name='thirdRoomMap' type='graphic'>backgrounds/thirdRoomMap.htm</asset>
+
+  <asset name='thirdRoomStairs1' type='path'>2247,1569;2430,1746;2424,1677;2247,1512</asset>
+  <asset name='thirdRoomStairs2' type='path'>2181,648;2181,612;2019,771;2019,843</asset>
+  <asset name='thirdRoomStairs3' type='path'>936,501;771,657;777,729;930,561</asset>
+
+  <asset name='dialogimg_tab1' type='graphic'>interface/backgrounds/dialogimg_tab1.htm</asset>
+  <asset name='dialogimg_tab2' type='graphic'>interface/backgrounds/dialogimg_tab2.htm</asset>
+  <asset name='dialogimg_tab3' type='graphic'>interface/backgrounds/dialogimg_tab3.htm</asset>
+
+  <asset name='item9' type='graphic'>objects/items/item9.htm</asset>
+  <asset name='item10' type='graphic'>objects/items/item10.htm</asset>
+  <asset name='item11' type='graphic'>objects/items/item11.htm</asset>
+  <asset name='item12' type='graphic'>objects/items/item12.htm</asset>
+  <asset name='item13' type='graphic'>objects/items/item13.htm</asset>
+</assets>
+
+<sprite depthing='3' name='item9'>
+  <animation sheet='item9' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item10'>
+  <animation sheet='item10' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item11'>
+  <animation sheet='item11' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item12'>
+  <animation sheet='item12' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item13'>
+  <animation sheet='item13' x='-50' y='-50'/>
+</sprite>
+
+<rooms>
+  <room name='thirdRoom' walkableMap='thirdRoomMap' mapScale='2'>
+  	<triggers>
+
+  		<trigger operator="OR">
+  			<args>inBox2,kanaya,2991,1911,2841,1812</args>
+        <args>inBox2,damara,2991,1911,2841,1812</args>
+  			<action command='changeRoomRemote'>rooms/secondRoom.xml,secondRoom,1326,380</action>
+  		</trigger>
+
+      <trigger operator='OR'>
+        <args>inBox2,rose,2991,1911,2841,1812</args>
+        <args>inBox2,dave,2991,1911,2841,1812</args>
+        <action class='notForYou'/>
+      </trigger>
+
+      <trigger>
+        <args>inBox2,kanaya,1800,312,1551,243</args>
+        <action command='changeRoomRemote'>rooms/sixthRoom.xml,sixthRoom,623,846</action>
+      </trigger>
+
+      <trigger>
+        <args>inBox2,damara,1800,312,1551,243</args>
+        <action command='changeRoomRemote'>
+          <args>rooms/sixthRoom.xml,sixthRoom,623,846</args>
+          <action command='addSprite'>
+            <args>terezi,sixthRoom</args>
+          </action>
+        </action>
+      </trigger>
+
+      <trigger>
+        <args>inBox2,rose,1800,312,1551,243</args>
+        <action command='changeRoomRemote'>
+          <args>rooms/sixthRoom.xml,sixthRoom,623,846</args>
+          <action command='addSprite'>
+            <args>gamzee,sixthRoom</args>
+          </action>
+        </action>
+      </trigger>
+
+      <trigger>
+        <args>inBox2,dave,1800,312,1551,243</args>
+        <action command='changeRoomRemote'>
+          <args>rooms/sixthRoom.xml,sixthRoom,623,846</args>
+          <action command='addSprite'>
+            <args>karkat,sixthRoom</args>
+          </action>
+        </action>
+      </trigger>
+
+  		<trigger>
+  			<args>inBox2,kanaya,345,831,225,609</args>
+        <action command='goBack' noDelay='true'>
+          <args>kanaya</args>
+          <action command='fadeOut'>
+            <action command='unfollow'>
+              <args>meenah</args>
+              <action command='changeChar'>
+                <args>meenah</args>
+      			    <action command='changeRoomRemote'>
+                  <args>rooms/fourthRoom.xml,fourthRoom,1896,399</args>
+                  <action command='playAnimation'>
+                    <args>araneaStand,aranea</args>
+                    <action command='playSong'>elevatorStuck,10.895</action>
+                  </action>
+                </action>
+              </action>
+            </action>
+          </action>
+        </action>
+  		</trigger>
+
+      <trigger>
+        <args>inBox2,damara,345,831,225,609</args>
+        <action command='changeRoomRemote'>
+          <args>rooms/fourthRoom.xml,fourthRoom,1896,399</args>
+          <action command='playAnimation'>
+            <args>araneaStand,andrew</args>
+            <action command='playSong'>elevatorStuck,10.895</action>
+          </action>
+        </action>
+      </trigger>
+
+      <trigger operator='OR'>
+        <args>inBox2,rose,345,831,225,609</args>
+        <args>inBox2,dave,345,831,225,609</args>
+        <action class='notForYou'/>
+      </trigger>
+
+  	</triggers>
+
+    <paths>
+      <motionpath path='thirdRoomStairs1' xtox='0.7' xtoy='0.7' />
+      <motionpath path='thirdRoomStairs2' xtox='0.7' xtoy='-0.7' />
+      <motionpath path='thirdRoomStairs3' xtox='0.7' xtoy='-0.7' />
+    </paths>
+
+    <character class='rose' x='1503' y='1038'>
+      <action class='roseTalk1'/>
+      <action class='roseTalk2'/>
+      <action class='roseTalk3'/>
+      <action class='beRose' sprite='!damara'/>
+    </character>
+
+    <character class='dave' x='1125' y='903'>
+      <action class='daveTalk1'/>
+      <action class='daveTalk2'/>
+      <action class='daveTalk3'/>
+      <action class='beDave' sprite='!damara'/>
+    </character>
+
+    <sprite class='chest7' name='thirdRoomChest9' x='2826' y='351'>
+      <action command='openChest' name='Открыть.'>
+        <args>thirdRoomChest9,item9,
+            @! Теперь у тебя есть БАНКА ЗЕМНОГО TAB!
+            @! Мэр припрятал парочку таких в своих тряпках для безопасного хранения. Теперь он решил хранить их в сундуках, но ему не известно, что это полная противоположность безопасному хранению.
+            @! Ты вскрываешь банку и делаешь глоток. Тебя переполняет ураганный поток сахара. Несомненно, ты будешь обкачана им ещё много часов.
+            @!~dialogimg_tab1
+            @!~dialogimg_tab2
+            @!~dialogimg_tab3
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest7' name='thirdRoomChest10' x='2181' y='897'>
+      <action command='openChest' name='Открыть.'>
+        <args>thirdRoomChest10,item10,
+             @! Теперь у тебя есть ПУСТАЯ БУТЫЛКА!
+      @! Наверно... ты просто, вроде как...
+      @!:#скучное-сокровище Положишь её рядом с остальными бутылками.
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest7' name='thirdRoomChest11' x='1698' y='474'>
+      <action command='openChest' name='Открыть.'>
+        <args>thirdRoomChest11,item11,
+             @! Теперь у тебя есть...
+      @! Эй, что это за штука вообще?
+      @! Ну не важно, теперь она есть у тебя.
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest7' name='thirdRoomChest12' x='1353' y='474'>
+      <action command='openChest' name='Открыть.'>
+        <args>thirdRoomChest12,item12,
+                   @! Теперь у тебя есть ДАРБАКС!
+      @! Ладно, ты даже не можешь притворяться, что сильно ему обрадовалась. У тебя складывается впечатление, что кто бы не складывал барахло в эти сундуки, у него явно закончились идеи о возможных сокровищах.
+      @! Ты бросаешь скучный предмет обратно в сундук. Но, чуть позже, Миинна украдкой возвращается, забирает дарбакс и убирает его в свою морскую ярко-розовую сумочку, которую мы никогда не видели отрисованной на ней, но которая совершенно точно существует в самом каноническом виде из возможных. Ну вот, теперь вы знаете.
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest7' name='thirdRoomChest13' x='828' y='1206'>
+      <action command='openChest' name='Открыть.'>
+        <args>thirdRoomChest13,item13,
+             @! ФУУУУУУУ, ЕЩЁ БОЛЬШЕ ТРОЛЛЬЕЙ КРОВИ, ЗАЧЕМ???
+      @! Когда ты уже собралась сбросить его в тёмную шахту, до тебя доносится его запах. Погодите-ка... оно пахнет... фруктами?
+      @! Похоже, ложная тревога. Кажется, это какой-то вкусный сок. Ты обозналась.
+        </args>
+      </action>
+    </sprite>
+  	
+  	<sprite name='thirdRoomBG'>
+  		<animation sheet='thirdRoomBG' sliced='true' colSize='500' rowSize='500' numCols='6' numRows='4'/>
+  	</sprite>
+  	<sprite name='thirdRoomFG' depthing='2'>
+  		<animation sheet='thirdRoomFG' sliced='true' colSize='500' rowSize='500' numCols='6' numRows='4'/>
+  	</sprite>
+  </room> 
+</rooms>
+
+</sburb>

@@ -1,0 +1,137 @@
+<sburb description="second room">
+
+<dependencies>
+  <dependency>chars/kanaya.xml</dependency>
+  <dependency>chars/porrim.xml</dependency>
+</dependencies>
+
+<assets>
+	<asset name='secondRoomBG_0_0' type='graphic'>backgrounds/slices/secondRoomBG_0_0.htm</asset>
+<asset name='secondRoomBG_0_1' type='graphic'>backgrounds/slices/secondRoomBG_0_1.htm</asset>
+<asset name='secondRoomBG_0_2' type='graphic'>backgrounds/slices/secondRoomBG_0_2.htm</asset>
+<asset name='secondRoomBG_1_0' type='graphic'>backgrounds/slices/secondRoomBG_1_0.htm</asset>
+<asset name='secondRoomBG_1_1' type='graphic'>backgrounds/slices/secondRoomBG_1_1.htm</asset>
+<asset name='secondRoomBG_1_2' type='graphic'>backgrounds/slices/secondRoomBG_1_2.htm</asset>
+<asset name='secondRoomBG_2_0' type='graphic'>backgrounds/slices/secondRoomBG_2_0.htm</asset>
+<asset name='secondRoomBG_2_1' type='graphic'>backgrounds/slices/secondRoomBG_2_1.htm</asset>
+<asset name='secondRoomBG_2_2' type='graphic'>backgrounds/slices/secondRoomBG_2_2.htm</asset>
+<asset name='secondRoomBG_3_0' type='graphic'>backgrounds/slices/secondRoomBG_3_0.htm</asset>
+<asset name='secondRoomBG_3_1' type='graphic'>backgrounds/slices/secondRoomBG_3_1.htm</asset>
+<asset name='secondRoomBG_3_2' type='graphic'>backgrounds/slices/secondRoomBG_3_2.htm</asset>
+<asset name='secondRoomBG_4_2' type='graphic'>backgrounds/slices/secondRoomBG_4_2.htm</asset>
+<asset name='secondRoomFG_0_0' type='graphic'>backgrounds/slices/secondRoomFG_0_0.htm</asset>
+<asset name='secondRoomFG_0_1' type='graphic'>backgrounds/slices/secondRoomFG_0_1.htm</asset>
+<asset name='secondRoomFG_0_2' type='graphic'>backgrounds/slices/secondRoomFG_0_2.htm</asset>
+<asset name='secondRoomFG_1_0' type='graphic'>backgrounds/slices/secondRoomFG_1_0.htm</asset>
+<asset name='secondRoomFG_1_1' type='graphic'>backgrounds/slices/secondRoomFG_1_1.htm</asset>
+<asset name='secondRoomFG_1_2' type='graphic'>backgrounds/slices/secondRoomFG_1_2.htm</asset>
+<asset name='secondRoomFG_2_0' type='graphic'>backgrounds/slices/secondRoomFG_2_0.htm</asset>
+<asset name='secondRoomFG_2_1' type='graphic'>backgrounds/slices/secondRoomFG_2_1.htm</asset>
+<asset name='secondRoomFG_2_2' type='graphic'>backgrounds/slices/secondRoomFG_2_2.htm</asset>
+<asset name='secondRoomFG_3_0' type='graphic'>backgrounds/slices/secondRoomFG_3_0.htm</asset>
+<asset name='secondRoomFG_3_1' type='graphic'>backgrounds/slices/secondRoomFG_3_1.htm</asset>
+<asset name='secondRoomFG_3_2' type='graphic'>backgrounds/slices/secondRoomFG_3_2.htm</asset>
+<asset name='secondRoomFG_4_2' type='graphic'>backgrounds/slices/secondRoomFG_4_2.htm</asset>
+
+	<asset name='secondRoomMap' type='graphic'>backgrounds/secondRoomMap.htm</asset>
+
+  <asset name='secondRoomDoor' type='graphic'>objects/doorclosed.htm</asset>
+  <asset name='secondRoomWalkable' type='path'>1376,250;1266,250;1266,400;1376,400</asset>
+</assets>
+
+
+<rooms>
+  <room name='secondRoom' walkableMap='secondRoomMap' mapScale='2'>
+  	<triggers>
+      
+  		<trigger>
+  			<args>inBox2,kanaya,200,196,286,820</args>
+        <action command='goBack' noDelay='true'>
+          <args>kanaya</args>
+          <action command='fadeOut'>
+            <action command='unfollow'>
+              <args>meenah</args>
+              <action class='beMeenah'>
+                <action command='changeRoomRemote' noDelay='true'>rooms/firstRoom.xml,firstRoom,2403,1428</action>
+              </action>
+            </action>
+          </action>
+        </action>
+  		</trigger>
+
+      <trigger>
+        <args>inBox2,meenah,200,196,286,820</args>
+        <action command='changeRoomRemote' noDelay='true'>rooms/firstRoom.xml,firstRoom,2403,1428</action>
+      </trigger>
+
+      <trigger>
+        <args>inBox2,damara,200,196,286,820</args>
+        <action command='changeRoomRemote' noDelay='true'>rooms/firstRoom.xml,firstRoom,2403,1428</action>
+      </trigger>
+
+  		<trigger>
+  			<args>inBox2,char,1376,300,1266,254</args>
+  			<action command='changeRoomRemote'>rooms/thirdRoom.xml,thirdRoom,2904,1761</action>
+  		</trigger>
+  	</triggers>
+  	
+    <character class='kanaya' x='1760' y='622' state='walkRight'>
+      <action class='kanayaTalk1'/>
+      <action class='kanayaTalk2'/>
+      <action class='porrimTalk1'/>
+      <action class='porrimTalk2'>
+        <action command='presentActions'>
+          <args>
+            <action name='Да.' class='beKanaya'>
+              <action command='follow'>
+                <args>meenah,kanaya</args>
+                <action command='setGameState'>
+                  <args>followingKanaya,true</args>
+                </action>  
+              </action>
+            </action>
+            <action command='cancel' name='Нет.'/>
+          </args>
+        </action>
+      </action>
+      <action class='porrimTalk4'/>
+      <action sprite='rose' class='beKanaya'/>
+      <action sprite='dave' class='beKanaya'/>
+      
+    </character>
+
+    <character class='porrim' x='1816' y='622' state='walkLeft'>
+      <action class='porrimTalk1'/>
+      <action class='porrimTalk3'/>
+      <action class='porrimTalk4'/>
+    </character>
+
+    <sprite name='secondRoomDoor' x='1235' y='200' width='200' height='300'>
+      <action command='talk' name='Осмотреть дверь.' sprite='!kanaya'>
+            <args>
+            @! Стоп... эта дверь чем-то отличается от других. Тебе кажется, что, возможно, это настоящая дверь! Не чьё-то воспоминание, как всё остальное в этом месте.
+            @! Должно быть, метеор снова физически проходит через пузырь снов. Тебе бы очень хотелось бы зайти туда и поразнюхивать, но дверь защищена паролем. Рядом должен быть кто-нибудь, кто знает пароль...
+            <!--  -->
+            </args>
+      </action>
+      <action command='removeSprite' name='Ввести пароль.' sprite='kanaya'>
+        <args>secondRoomDoor,secondRoom</args>
+        <action command='addWalkable' noDelay='true'>
+          <args>secondRoomWalkable,secondRoom</args>
+          <action command='playSound' noDelay='true'>
+            <args>openSound2</args>
+          </action>
+        </action>
+      </action>
+    </sprite>
+
+  	<sprite name='secondRoomBG'>
+  		<animation sheet='secondRoomBG' sliced='true' colSize='500' rowSize='500' numCols='5' numRows='3'/>
+  	</sprite>
+  	<sprite name='secondRoomFG' depthing='2'>
+  		<animation sheet='secondRoomFG' sliced='true' colSize='500' rowSize='500' numCols='5' numRows='3'/>
+  	</sprite>
+  </room> 
+</rooms>
+
+</sburb>

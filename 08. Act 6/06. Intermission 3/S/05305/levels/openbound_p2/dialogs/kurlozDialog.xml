@@ -1,0 +1,107 @@
+<sburb description='kurloz dialogs'>
+	<classes>
+		<action sprite='meenah' class='kurlozTalk1' command='talk' name='Поговорить с Курлозом.'>
+      <args>
+      @meenah_idle МИИННА: йо отморозок помнишь меня
+      @kurloz_smile:#:o) КУРЛОЗ: 
+      @meenah_idle МИИННА: итак 
+      @meenah_talk МИИННА: итак какой вообще разговор мы могли бы провести который не был бы странным и неудобным
+      @kurloz_smile:#:o) КУРЛОЗ: 
+      @meenah_idle МИИННА: понятно
+      @meenah_talk МИИННА: тебе вообще есть что сказать мне кроме щуковатых взглядов и мерзких улыбок закитыми губами
+      @kurloz_smile:#:o) КУРЛОЗ: 
+      @meenah_talk МИИННА: какова нынче зловещая молва
+      @kurloz_finger:#:o) КУРЛОЗ: 
+      @meenah_annoyed МИИННА: бля ладно не парься братишка
+      <!--  -->
+      </args>
+		</action>
+
+		<action sprite='meenah' class='kurlozTalk2' command='talk' name='Попросить Курлоза присоединиться.'>
+      <args>
+      @meenah_talk МИИННА: так наверно я хотела бы чтобы ты присоединился к моей армии
+      @meenah_idle МИИННА: наверно
+      @meenah_talk МИИННА: если ты пообещаешь не быть слишком капризным или ебанутым клоуном или ещё чего
+      @kurloz_no:#:o) КУРЛОЗ: 
+      @meenah_talk МИИННА: ну ты хотя бы ответил честно
+      @meenah_talk МИИННА: у тебя есть какие-нибудь смеховуду советы по поводу того как забить херувима?
+      @kurloz_shrug:#:o) КУРЛОЗ: 
+      @meenah_idle МИИННА: итак
+      @meenah_talk МИИННА: как обычно тебе сказать нечего
+      @kurloz_zip:#:o) КУРЛОЗ: 
+      @meenah_talk МИИННА: просто шикарно поболтали
+      <!--  -->
+      </args>
+		</action>
+
+		<action sprite='meenah' class='kurlozTalk3' command='talk' name='Быть Курлозом.'>
+      <args>
+      @! Ты даже не знаешь, с чего НАЧАТЬ пребывание этим чудаком. Лучше просто оставить его в покое.
+      <!--  -->
+      </args>
+		</action>
+
+
+		
+		
+		<action sprite='meulin' class='kurlozTalk5' command='talk' name='Поговорить с Курлозом.'>
+      <args>
+      @meulin_mime4~meme10  
+      @kurloz_mime1~kurmeme1:#:o)  
+      @meulin_mime2~meme11  
+      @kurloz_mime2~kurmeme2:#:o)  
+      @meulin_mime3~meme12  
+      @kurloz_mime3~kurmeme3:#:o)  
+      @meulin_mime5~meme13  
+      @meulin_mime5~meme14  
+      @kurloz_mime1~kurmeme4:#:o)  
+      @kurloz_mime2~kurmeme5:#:o)  
+      @! Отдать Курлозу ГУЛЬФИК?
+      <!-- y/n -->
+      </args>
+		</action>
+		
+		<action class='kurlozTalk6' command='talk'>
+			<args>
+			@kurloz_hypno2%kurbox~kurtalk1  
+      @kurloz_hypno2%kurbox~kurtalk2  
+      @kurloz_hypno2%kurbox~kurtalk3  
+      @meulin_hypno%kurbox:#НЕМЕДЛЕННО#ВО-ИМЯ-RYDAS-И-NINJETTES МЕУЛИН: (=ﾟ･ﾟ=) &lt; СЛАВА ИСТИННОМУ МЕССИИ.
+      @kurloz_hypno2%kurbox~kurtalk4  
+      @meulin_hypno%kurbox:#СТОЛЬКО-КЛОУНСКОЙ-ЛЮБВИ МЕУЛИН: (=ﾟ･ﾟ=) &lt; ДА ВООДУШЕВЯТ КОШМАРЫ ПРАВЕДНЫЕ СМЕХОВУДУ БАРДА ВО ВСЕХ, КТО МУРРТИВОСТОИТ КАЛИКОРНУ, И ДА ПРО33ВУЧИТ ГРОМКО ШУТЛИВОЕ УРЧАНИЕ КОТЦА БЕ33ГРАНИЧНОГО ХОНКА И ОХЕРЕННО ИСТИННО ДО САМОГО ШАНГРИ-ЛУЛ33А.
+      @kurloz_hypno1%kurbox~kurtalk5  
+      @kurloz_hypno1%kurbox~kurtalk6  
+      @meulin_hypno%kurbox МЕУЛИН: (=ﾟ･ﾟ=) &lt; ДА ПОМОГУТ ЭТИ НЕЛЕПЫЕ ШОРТЫ ЕГО СВЯЩЕННОЙ МЯУССИИ И ДА СОБЬЮТ С ТОЛКУ ВСЕХ, КТО БРОСИТ СВОЙ ЖАЛКИЙ В33ГЛЯД НА ЕГО КОТНУЮ, БЛЯТЬ, ШИШКУ.
+      @kurloz_hypno1%kurbox~kurtalk7  
+      <!--  --> 
+      </args>
+		</action>
+		
+		<action class='kurlozTalk7' command='talk' >
+		  <args>
+		  @kurloz_angry%kurbox~kurtalk8  
+		  @kurloz_annoyed%kurbox~kurtalk9  
+		  @kurloz_dead%kurbox~kurtalk10  
+		  @kurloz_fist%kurbox~kurtalk11  
+		  @kurloz_hypno2%kurbox~kurtalk12  
+		  <!--  -->
+		  </args>
+		</action>
+		
+		<action class='kurlozTalk8' command='talk'>
+      <args>
+      @kurloz_angry%kurbox~kurtalk13  
+      @kurloz_angry%kurbox~kurtalk14  
+      @kurloz_angry%kurbox~kurtalk15  
+      @kurloz_angry%kurbox~kurtalk16  
+      @kurloz_angry%kurbox~kurtalk17  
+      @kurloz_angry%kurbox~kurtalk18  
+      @kurloz_smile%kurbox~kurtalk19:#:o)  
+      @gamzee_idle%kurbox ГАМЗИИ: закрой своё блядское ебало и дай мне гульфик
+      @kurloz_zip%kurbox КУРЛОЗ:
+      <!--  -->
+      </args>
+		</action>
+		
+	</classes>
+</sburb>

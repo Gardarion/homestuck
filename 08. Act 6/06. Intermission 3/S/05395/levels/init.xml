@@ -1,0 +1,11 @@
+<sburb name="Openbound_p3" version="1.1" char='meenah' bgm='meenahSong' description="initialization" scale='2' levelPath='05395/levels/openbound_p3' resourcePath='05395/resources/openbound_p3'>
+
+	<dependencies>
+		<dependency>etc/ui.xml</dependency>
+		<dependency>etc/standardTemplates.xml</dependency>
+		<dependency>etc/sfx.xml</dependency>
+		<dependency>rooms/firstRoom.xml</dependency>
+	</dependencies>
+
+	
+</sburb>

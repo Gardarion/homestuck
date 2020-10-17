@@ -1,0 +1,381 @@
+<sburb description="first room">
+
+<dependencies>
+	<dependency>firstRoomDialog.xml</dependency>
+</dependencies>
+
+<classes>
+	<animation class='aradia-dialog' frameInterval='6' x='-245' y='-504'/>
+	<character class='andrew' sx='-50' sy='-110' sWidth='100' sHeight='130' width='40' height='20' 
+	       sheet='andrewSheet' state='walkLeft' facing='Left'>
+		<animation name='sit' sheet='andrewSitSheet' x='-30' y='-65'/>
+	</character>
+</classes>
+
+<assets>
+  <asset name='meenahSheet' type='graphic'>chars/meenah.htm</asset>
+	<asset name='meenahSkate' type='graphic'>chars/meenah_skate.htm</asset>
+	<asset name='aradiaSheet' type='graphic'>chars/aradia.htm</asset>
+  
+  <asset name='firstRoomMap' type='graphic'>backgrounds/firstRoomMap.htm</asset>
+  <!--<asset name='firstRoomBG' type='graphic'>backgrounds/firstRoomBG.htm</asset>-->
+  <!--<asset name='firstRoomFG' type='graphic'>backgrounds/firstRoomFG.htm</asset>-->
+  
+  <asset name='bg1_11' type='graphic'>backgrounds/firstRoomBG/MAP1_11.htm</asset>
+<asset name='bg1_12' type='graphic'>backgrounds/firstRoomBG/MAP1_12.htm</asset>
+<asset name='bg1_13' type='graphic'>backgrounds/firstRoomBG/MAP1_13.htm</asset>
+<asset name='bg1_14' type='graphic'>backgrounds/firstRoomBG/MAP1_14.htm</asset>
+<asset name='bg1_15' type='graphic'>backgrounds/firstRoomBG/MAP1_15.htm</asset>
+<asset name='bg1_21' type='graphic'>backgrounds/firstRoomBG/MAP1_21.htm</asset>
+<asset name='bg1_22' type='graphic'>backgrounds/firstRoomBG/MAP1_22.htm</asset>
+<asset name='bg1_23' type='graphic'>backgrounds/firstRoomBG/MAP1_23.htm</asset>
+<asset name='bg1_24' type='graphic'>backgrounds/firstRoomBG/MAP1_24.htm</asset>
+<asset name='bg1_25' type='graphic'>backgrounds/firstRoomBG/MAP1_25.htm</asset>
+<asset name='bg1_31' type='graphic'>backgrounds/firstRoomBG/MAP1_31.htm</asset>
+<asset name='bg1_32' type='graphic'>backgrounds/firstRoomBG/MAP1_32.htm</asset>
+<asset name='bg1_33' type='graphic'>backgrounds/firstRoomBG/MAP1_33.htm</asset>
+<asset name='bg1_34' type='graphic'>backgrounds/firstRoomBG/MAP1_34.htm</asset>
+<asset name='bg1_35' type='graphic'>backgrounds/firstRoomBG/MAP1_35.htm</asset>
+<asset name='bg1_41' type='graphic'>backgrounds/firstRoomBG/MAP1_41.htm</asset>
+<asset name='bg1_42' type='graphic'>backgrounds/firstRoomBG/MAP1_42.htm</asset>
+<asset name='bg1_43' type='graphic'>backgrounds/firstRoomBG/MAP1_43.htm</asset>
+<asset name='bg1_44' type='graphic'>backgrounds/firstRoomBG/MAP1_44.htm</asset>
+<asset name='bg1_45' type='graphic'>backgrounds/firstRoomBG/MAP1_45.htm</asset>
+
+<asset name='fg1_11' type='graphic'>backgrounds/firstRoomFG/MAP1o_11.htm</asset>
+<asset name='fg1_12' type='graphic'>backgrounds/firstRoomFG/MAP1o_12.htm</asset>
+<asset name='fg1_13' type='graphic'>backgrounds/firstRoomFG/MAP1o_13.htm</asset>
+<asset name='fg1_14' type='graphic'>backgrounds/firstRoomFG/MAP1o_14.htm</asset>
+<asset name='fg1_15' type='graphic'>backgrounds/firstRoomFG/MAP1o_15.htm</asset>
+<asset name='fg1_21' type='graphic'>backgrounds/firstRoomFG/MAP1o_21.htm</asset>
+<asset name='fg1_22' type='graphic'>backgrounds/firstRoomFG/MAP1o_22.htm</asset>
+<asset name='fg1_23' type='graphic'>backgrounds/firstRoomFG/MAP1o_23.htm</asset>
+<asset name='fg1_24' type='graphic'>backgrounds/firstRoomFG/MAP1o_24.htm</asset>
+<asset name='fg1_25' type='graphic'>backgrounds/firstRoomFG/MAP1o_25.htm</asset>
+<asset name='fg1_31' type='graphic'>backgrounds/firstRoomFG/MAP1o_31.htm</asset>
+<asset name='fg1_32' type='graphic'>backgrounds/firstRoomFG/MAP1o_32.htm</asset>
+<asset name='fg1_33' type='graphic'>backgrounds/firstRoomFG/MAP1o_33.htm</asset>
+<asset name='fg1_34' type='graphic'>backgrounds/firstRoomFG/MAP1o_34.htm</asset>
+<asset name='fg1_35' type='graphic'>backgrounds/firstRoomFG/MAP1o_35.htm</asset>
+<asset name='fg1_41' type='graphic'>backgrounds/firstRoomFG/MAP1o_41.htm</asset>
+<asset name='fg1_42' type='graphic'>backgrounds/firstRoomFG/MAP1o_42.htm</asset>
+<asset name='fg1_43' type='graphic'>backgrounds/firstRoomFG/MAP1o_43.htm</asset>
+<asset name='fg1_44' type='graphic'>backgrounds/firstRoomFG/MAP1o_44.htm</asset>
+<asset name='fg1_45' type='graphic'>backgrounds/firstRoomFG/MAP1o_45.htm</asset>
+  
+  <asset name='firstRoomStairs1' type='path'>1574,1372;1990,1696;1980,1760;1580,1448</asset>
+  <asset name='firstRoomStairs2' type='path'>876,2710;1474,3156;1482,3288;868,2796</asset>
+
+	<asset name='aradia_happy' type='graphic'>dialogs/aradia_happy.htm</asset>
+	<asset name='aradia_happytalk' type='graphic'>dialogs/aradia_happytalk.htm</asset>
+	<asset name='aradia_idle' type='graphic'>dialogs/aradia_idle.htm</asset>
+	<asset name='aradia_laugh' type='graphic'>dialogs/aradia_laugh.htm</asset>
+	<asset name='aradia_point' type='graphic'>dialogs/aradia_point.htm</asset>
+	<asset name='aradia_talk' type='graphic'>dialogs/aradia_talk.htm</asset>
+	<asset name='aradia_wink' type='graphic'>dialogs/aradia_wink.htm</asset>
+	
+	<asset name='obj01' type='graphic'>objects/01.htm</asset>
+	<asset name='obj02' type='graphic'>objects/02.htm</asset>
+	<asset name='obj03' type='graphic'>objects/03.htm</asset>
+	<asset name='obj04' type='graphic'>objects/04.htm</asset>
+	<asset name='obj05' type='graphic'>objects/05.htm</asset>
+	<asset name='obj06' type='graphic'>objects/06.htm</asset>
+	<asset name='obj07' type='graphic'>objects/07.htm</asset>
+	<asset name='obj08' type='graphic'>objects/08.htm</asset>
+	<asset name='obj09' type='graphic'>objects/09.htm</asset>
+	<asset name='obj10' type='graphic'>objects/10.htm</asset>
+	
+	<asset name='andrewSheet' type='graphic'>chars/andrew.htm</asset>
+	<asset name='andrewSitSheet' type='graphic'>chars/ah_sit.htm</asset>
+	<asset name='eightBallsSheet' type='graphic'>objects/ah_8balls.htm</asset>
+</assets>
+
+<hud>
+	<dialogsprites>
+		<animation name='aradia_happy' class='aradia-dialog' sheet='aradia_happy' />
+		<animation name='aradia_happytalk' class='aradia-dialog' sheet='aradia_happytalk' length='2' />
+		<animation name='aradia_idle' class='aradia-dialog' sheet='aradia_idle' />
+		<animation name='aradia_laugh' class='aradia-dialog' sheet='aradia_laugh'  length='1' />
+		<animation name='aradia_point' class='aradia-dialog' sheet='aradia_point' />
+		<animation name='aradia_talk' class='aradia-dialog' sheet='aradia_talk'  length='2' />
+		<animation name='aradia_wink' class='aradia-dialog' sheet='aradia_wink' />
+	</dialogsprites>
+</hud>
+
+<sprite name='firstRoomToggle' y='0'>
+    <animation sheet='aradiaSheet'/>
+</sprite>
+
+<sprite name='firstRoomFocusPoint' x='3336' y='280'>
+    <animation sheet='aradiaSheet'/>
+</sprite>
+
+<sprite depthing='2' name='obj01'>
+<animation x='-50' y='-50' sheet='obj01'/>
+</sprite>
+<sprite depthing='2' name='obj02'>
+<animation x='-50' y='-50' sheet='obj02'/>
+</sprite>
+<sprite depthing='2' name='obj03'>
+<animation x='-50' y='-50' sheet='obj03'/>
+</sprite>
+<sprite depthing='2' name='obj04'>
+<animation x='-50' y='-50' sheet='obj04'/>
+</sprite>
+<sprite depthing='2' name='obj05'>
+<animation x='-50' y='-50' sheet='obj05'/>
+</sprite>
+<sprite depthing='2' name='obj06'>
+<animation x='-50' y='-50' sheet='obj06'/>
+</sprite>
+<sprite depthing='2' name='obj07'>
+<animation x='-50' y='-50' sheet='obj07'/>
+</sprite>
+<sprite depthing='2' name='obj08'>
+<animation x='-50' y='-50' sheet='obj08'/>
+</sprite>
+<sprite depthing='2' name='obj09'>
+<animation x='-50' y='-50' sheet='obj09'/>
+</sprite>
+<sprite depthing='2' name='obj10'>
+<animation x='-50' y='-50' sheet='obj10'/>
+</sprite>
+
+<rooms>
+  <room name='firstRoom' width='4800' height='3872' walkableMap='firstRoomMap'>
+  	
+  	<triggers>
+  		<trigger>spriteProperty,char,x>4650
+  			<action command='deltaSprite'>
+  				<args>char,-12,0</args>
+  				<action command='changeRoomRemote'>secondRoom.xml,secondRoom,800,790</action>
+  			</action>
+  		</trigger>
+  		<trigger>inBox,char,1056,1773,60,150
+  			<action command='moveSprite'>
+						<args>firstRoomToggle,0,50</args>
+				</action>
+  		</trigger>
+  		<trigger>inBox,char,1439,1730,60,110
+  			<trigger>spriteProperty,firstRoomToggle,y!=0
+					<action command='moveSprite'>
+						<args>firstRoomToggle,0,0</args>
+						<action class='aradiaTalk2'/>
+					</action>
+  			</trigger>
+  		</trigger>
+  		<trigger detonate='true'>inBox,char,2710,234,54,250
+  			<action command='waitFor'>
+  				<args>spriteProperty,andrewRun,y&gt;600</args>
+  				<action command='becomePlayer' noWait='true'>
+  					<args>andrewRun</args>
+  					<action command='playAnimation' noWait='true'>
+							<args>andrewRun,walkRight</args>
+							<action command='changeFocus' noWait='true'>
+								<args>firstRoomFocusPoint</args>
+								<action command='deltaSprite' noWait='true' times='6'>
+									<args>andrewRun,11,0</args>
+									<action command='deltaSprite' noWait='true' times='17'>
+										<args>andrewRun,11,-9</args>
+										<action command='deltaSprite' noWait='true' times='30'>
+											<args>andrewRun,11,13</args>
+											<action command='changeFocus'>
+												<args>char</args>
+											</action>
+										</action>
+									</action>
+								</action>
+							</action>
+						</action>
+  				</action>
+  			</action>
+  		</trigger>
+  		<trigger detonate='true'>inBox,char,1450,3332,180,36
+  			<action command='talk'>
+  				<args>
+  				@! Погоди. Ты слышишь что-то поблизости.
+				  @! Это...
+				  @! Это что...
+				  @!:#???? Всхлипы?
+				  </args>
+  			</action>
+  			
+  		</trigger>
+  	</triggers>
+  	
+    <paths>
+  		<motionpath path="firstRoomStairs1" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+  		<motionpath path="firstRoomStairs2" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+  	</paths>
+    
+    <character class='andrew' name='andrewRun' x='2965' y='380'/>
+    
+    <character class='andrew' name='andrew' x='976' y='3504' state='sit'>
+    	<action class='andrewTalk1'/>
+    </character>
+    
+    <sprite name='eightBalls' x='906' y='3314'>
+    	<animation sheet='eightBallsSheet'/>
+    </sprite>
+    
+    <sprite name='questSwitch'>
+    	<animation sheet='eightBallsSheet'/>
+    </sprite>
+    
+    
+    <character name='meenah' x='1490' y='630' sx='-50' sy='-110' sWidth='100' sHeight='130' width='30' height='15' 
+	       sheet='meenahSheet' state='walkFront' facing='Front'>
+	  	<animation name='skate' sheet='meenahSkate' x='-60' y='-80' />
+      <action name='Быть Миинной.' sprite='!kankri' command='changeChar'>
+      	<args>meenah</args>
+      	<action command='playSong'>fusciaRuler, 32.0830</action>
+      </action>
+      <action class='meenahTalk1' />
+      <action class='meenahTalk2' />
+      <action class='meenahTalk3'>
+      	<action command='talk'>
+      		<args>@! Быть Миинной?</args>
+		    	<action command='presentActions'>
+		    		<args>
+		    			<action name='Да' command='changeChar'>
+								<args>meenah</args>
+								<action command='playSong'>
+									<args>fusciaRuler, 32.0830</args>
+									<action command='removeAction'>
+										<args>karkat,Поговорить с Каркатом.</args>
+										<action command='addActions'>
+											<args>karkat,
+												<action class='karkatTalk2'/>
+											</args>
+										</action> 
+									</action>
+								</action>
+							</action>
+							<action name='Нет' command='cancel'>
+							</action>
+		    		</args>
+		    	</action>
+		    </action>
+      </action>
+    </character>
+    
+    <sprite name='aradia' x='1650' y='1705' width='40' height='20' collidable='true'>
+    	<animation sheet='aradiaSheet' x='-40' y='-100'/>
+    	<action class='aradiaTalk1'/>
+    </sprite>
+    
+    <sprite class='chest1' name='firstRoomChest1' x='2913' y='208'>
+    	<action command='openChest' name='открыть'>
+    		<args>firstRoomChest1,obj01, @! Теперь у тебя есть ЗОЛОТАЯ ТИАРА!
+      @!:#побрякушка#караты#джекпот У тебя нет намерения носить эту штуку, но не повредит снова начать накапливать трофеи. Теперь, когда ты мертва, ты испытываешь дефицит барахла, если ты понимаешь, о чём я.</args>
+    	</action>
+    </sprite>
+    <sprite class='chest1' name='firstRoomChest2' x='2745' y='576'>
+    	<action command='openChest' name='открыть'>
+    		<args>firstRoomChest2,obj02,@! Теперь у тебя есть ДВОЙНОЙ ТРЕЗУБЕЦ!
+      @!:#ЗОЛОТО#$$$$$#тадам У тебя уже есть один такой. Но нет ничего зазорного в том, чтобы хранить немного больше ЧИСТОГО ЗОЛОТА в твоём инвентаре. Тебе надо поддерживать имидж экстравагантной призрачной морской принцессы.</args>
+    	</action>
+    </sprite>
+    <sprite class='chest1' name='firstRoomChest3' x='426' y='558'>
+    	<action command='openChest' name='открыть'>
+    		<args>firstRoomChest3,obj03, @! Теперь у тебя есть ГРЯЗНАЯ СТАРАЯ ШЛЯПА!
+      @!:#шляпа-безрогого-тролля-индианы-джонса Совершенно бесполезная. Этот гадский мусор ни в коем случае не приблизится к твоей голове. У неё даже нет дырок для рогов. Похоже на нечто, что носил бы археолог. Тебе интересно, чьё это воспоминание?
+        </args>
+    	</action>
+    </sprite>
+    <sprite class='chest1' name='firstRoomChest4' x='2643' y='1557'>
+    	<action command='openChest' name='открыть'>
+    		<args>firstRoomChest4,obj04,@!:#дзинь-дзинь Теперь у тебя есть немного ДАРДОЛЛАРОВ! 
+      @!:#разорение Не так много, но ты прикарманиваешь добычу без раздумий. Твои финансы  поют романсы с тех пор, как ты умерла, и любая мелочь поможет твоему восхождению обратно к несметному богатству.</args>
+    	</action>
+    </sprite>
+    <sprite class='chest1' name='firstRoomChest5' x='2052' y='2037'>
+    	<action command='openChest' name='открыть'>
+    		<args>firstRoomChest5,obj05, @!:#огневик Теперь у тебя есть ПЛЮШЕВЫЙ ЧЕШУЙЧИК!
+      @!:#чрезвычайно-востребованный-товар Срань господня. Ты никогда не прекратишь обнимать эту штуку. Никогда.</args>
+    	</action>
+    </sprite>
+    <sprite class='chest1' name='firstRoomChest6' x='278' y='1710'>
+    	<action command='openChest' name='открыть'>
+    		<args>firstRoomChest6,obj06,@! Теперь у тебя есть КОСТИ ДРЕВНЕГО ЗМЕЯ!
+      @!:#где-ломбард-в-этой-щуке Снова, довольно странная находка. Кто здесь мог бы иметь воспоминания о них? Огромные доисторические змеи всегда играли важную роль в мифологии твоего народа, как до, так и после того, как ваша сессия была поцарапана. Разумеется, только народ, заинтересованный древними преданиями и старыми пыльными костями колышет эта херня. Ты больше заинтересована в их денежной стоимости.  К счастью, ты можешь найти салагу, который заплатит за них  кругленькую сумму.</args>
+    	</action>
+    </sprite>
+    <sprite class='chest1' name='firstRoomChest7' x='213' y='2097'>
+    	<action command='openChest' name='открыть'>
+    		<args>firstRoomChest7,obj07, @! Теперь у тебя есть БРОНЗОВОЕ ЗЕЛЬЕ!
+      @!:#ты-сбрасываешь-это-со-скалы Предположительно эта вещь делает тебя хорошей целовальщицей, с побочным эффектом от частичного до полного паралича. Погодите минутку… разве это не просто немного тролльей крови? Ой, фу.</args>
+    	</action>
+    </sprite>
+    <sprite class='chest1' name='firstRoomChest8' x='1152' y='2421'>
+    	<action command='openChest' name='открыть'>
+    		<args>firstRoomChest8,obj08,@! Теперь у тебя есть штуковина с МОТОРНЫМ МАСЛОМ!
+      @!:#P.S.#ты-делаешь-небольшой-глоток#вкус-отвратительный Эй, у этой бутылки даже есть невредимая этикетка! Обычно, этикетка содрана и прицеплена к меловой росписи на стене. Факт наличия этикетки, делает его более ценным в качестве коллекционного предмета. Ты всегда внимательна к денежной стоимости бесполезного барахла, которое находишь в сундуках.</args>
+    	</action>
+    </sprite>
+    <sprite class='chest1' name='firstRoomChest9' x='2568' y='2856'>
+    	<action command='openChest' name='открыть'>
+    		<args>firstRoomChest9,obj09,@! Теперь у тебя есть ДАРБАКС!
+      @!:#но-раз-уж-ты-здесь#ты-можешь-попытаться-вернуть-их-обратно-ЕБАТЬ-КАК-БЫСТРО Вот это другой разговор. Это должно снять твою разбитую задницу с мели. Это самое настоящее преступление, что безумные богатства, которые ты накапливала в своей игре, не остались с тобой после того, как ты умерла. Пожалуй, правду говорят, и впрямь не получится забрать всё с собой на тот свет.</args>
+    	</action>
+    </sprite>
+    <sprite class='chest1' name='firstRoomChest10' x='834' y='3235'>
+    	<action command='openChest' name='открыть'>
+    		<args>firstRoomChest10,obj10,@! Теперь у тебя есть ОКРОВАВЛЕННЫЙ ЗУБ ХЕРУВИМА!
+      @!:#или-тому,-кто-первым-заинтересуется Тот факт, что эта штука в сундуке здесь, несколько тебя беспокоит по причинам, которые ты не можешь на самом деле объяснить. Ты думаешь, что попробуешь продать эту штуку по максимальной цене как можно быстрее.</args>
+    	</action>
+    </sprite>
+    <!--
+    <sprite name='firstRoomBG'>
+      <animation sheet='firstRoomBG'/>
+    </sprite>
+    <sprite name='firstRoomFG' depthing='2'>
+      <animation sheet='firstRoomFG'/>
+    </sprite>
+    -->
+    <sprite name='bg1_11' x='0' y='0' ><animation sheet='bg1_11'/></sprite>
+<sprite name='bg1_12' x='1000' y='0' ><animation sheet='bg1_12'/></sprite>
+<sprite name='bg1_13' x='2000' y='0' ><animation sheet='bg1_13'/></sprite>
+<sprite name='bg1_14' x='3000' y='0' ><animation sheet='bg1_14'/></sprite>
+<sprite name='bg1_15' x='4000' y='0' ><animation sheet='bg1_15'/></sprite>
+<sprite name='bg1_21' x='0' y='1000' ><animation sheet='bg1_21'/></sprite>
+<sprite name='bg1_22' x='1000' y='1000' ><animation sheet='bg1_22'/></sprite>
+<sprite name='bg1_23' x='2000' y='1000' ><animation sheet='bg1_23'/></sprite>
+<sprite name='bg1_24' x='3000' y='1000' ><animation sheet='bg1_24'/></sprite>
+<sprite name='bg1_25' x='4000' y='1000' ><animation sheet='bg1_25'/></sprite>
+<sprite name='bg1_31' x='0' y='2000' ><animation sheet='bg1_31'/></sprite>
+<sprite name='bg1_32' x='1000' y='2000' ><animation sheet='bg1_32'/></sprite>
+<sprite name='bg1_33' x='2000' y='2000' ><animation sheet='bg1_33'/></sprite>
+<sprite name='bg1_34' x='3000' y='2000' ><animation sheet='bg1_34'/></sprite>
+<sprite name='bg1_35' x='4000' y='2000' ><animation sheet='bg1_35'/></sprite>
+<sprite name='bg1_41' x='0' y='3000' ><animation sheet='bg1_41'/></sprite>
+<sprite name='bg1_42' x='1000' y='3000' ><animation sheet='bg1_42'/></sprite>
+<sprite name='bg1_43' x='2000' y='3000' ><animation sheet='bg1_43'/></sprite>
+<sprite name='bg1_44' x='3000' y='3000' ><animation sheet='bg1_44'/></sprite>
+<sprite name='bg1_45' x='4000' y='3000' ><animation sheet='bg1_45'/></sprite>
+
+<sprite name='fg1_11' x='0' y='0' depthing='2' ><animation sheet='fg1_11'/></sprite>
+<sprite name='fg1_12' x='1000' y='0' depthing='2' ><animation sheet='fg1_12'/></sprite>
+<sprite name='fg1_13' x='2000' y='0' depthing='2' ><animation sheet='fg1_13'/></sprite>
+<sprite name='fg1_14' x='3000' y='0' depthing='2' ><animation sheet='fg1_14'/></sprite>
+<sprite name='fg1_15' x='4000' y='0' depthing='2' ><animation sheet='fg1_15'/></sprite>
+<sprite name='fg1_21' x='0' y='1000' depthing='2' ><animation sheet='fg1_21'/></sprite>
+<sprite name='fg1_22' x='1000' y='1000' depthing='2' ><animation sheet='fg1_22'/></sprite>
+<sprite name='fg1_23' x='2000' y='1000' depthing='2' ><animation sheet='fg1_23'/></sprite>
+<sprite name='fg1_24' x='3000' y='1000' depthing='2' ><animation sheet='fg1_24'/></sprite>
+<sprite name='fg1_25' x='4000' y='1000' depthing='2' ><animation sheet='fg1_25'/></sprite>
+<sprite name='fg1_31' x='0' y='2000' depthing='2' ><animation sheet='fg1_31'/></sprite>
+<sprite name='fg1_32' x='1000' y='2000' depthing='2' ><animation sheet='fg1_32'/></sprite>
+<sprite name='fg1_33' x='2000' y='2000' depthing='2' ><animation sheet='fg1_33'/></sprite>
+<sprite name='fg1_34' x='3000' y='2000' depthing='2' ><animation sheet='fg1_34'/></sprite>
+<sprite name='fg1_35' x='4000' y='2000' depthing='2' ><animation sheet='fg1_35'/></sprite>
+<sprite name='fg1_41' x='0' y='3000' depthing='2' ><animation sheet='fg1_41'/></sprite>
+<sprite name='fg1_42' x='1000' y='3000' depthing='2' ><animation sheet='fg1_42'/></sprite>
+<sprite name='fg1_43' x='2000' y='3000' depthing='2' ><animation sheet='fg1_43'/></sprite>
+<sprite name='fg1_44' x='3000' y='3000' depthing='2' ><animation sheet='fg1_44'/></sprite>
+<sprite name='fg1_45' x='4000' y='3000' depthing='2' ><animation sheet='fg1_45'/></sprite>
+  </room>
+  
+ 
+</rooms>
+</sburb>
