@@ -13,21 +13,36 @@ img {
 }
 
 #page {
-  max-width: 950px;
+  width: 950px;
   margin: 0px auto;
   background-color: #535353;
 }
+@media screen and (max-width: 1023px) {
+  #page {
+width: 650px!important;
+  }
+@media screen and (max-width: 1023px) {
+  .row>table {
+width: 650px!important;
+  }
 
- div table {
-width: 100%!important;
-}
 
- center table {
-width: 600px!important;
-}
+@media screen and (max-width: 1023px) {
+  .row>table>tbody>tr>td {
+width: 650px!important;
+  }
+
+@media screen and (max-width: 1023px) {
+  .row>table>tbody>tr>td>table {
+width: 650px!important;
+  }
+
+@media screen and (max-width: 1023px) {
+  tr>td>center>p {
+  font-size: 20px;
+  }
 
 .row {
-  display: table-row;
 }
 
 .header {
