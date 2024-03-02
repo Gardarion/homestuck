@@ -48,9 +48,6 @@ img {
     max-width: 650px !important;
     width: 100% !important;
   }
-  tr>td>center>p {
-  font-size: 20px;
-  }
 }
 .row {
 }
