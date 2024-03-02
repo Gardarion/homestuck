@@ -17,31 +17,41 @@ img {
   margin: 0px auto;
   background-color: #535353;
 }
+
 @media screen and (max-width: 1023px) {
   #page {
-width: 650px;
+    max-width: 650px;
+    width: 100%;
   }
-@media screen and (max-width: 1023px) {
   .row>table {
-width: 650px!important;
+    max-width: 650px;
+    width: 100%;
+    padding: 0 10px;
   }
-
-
-@media screen and (max-width: 1023px) {
   .row>table>tbody>tr>td {
-width: 650px!important;
+    max-width: 650px;
+    width: 100%;
   }
-
-@media screen and (max-width: 1023px) {
   .row>table>tbody>tr>td>table {
-width: 650px!important;
+    max-width: 650px;
+    width: 100%;
   }
-
-@media screen and (max-width: 1023px) {
+  .row>table>tbody>tr>td>table table {
+    max-width: 650px !important;
+    width: 100% !important;
+  }
+  .row>table>tbody>tr>td>table .comic-images img {
+    max-width: 650px !important;
+    width: 100% !important;
+  }
+  .row>table>tbody>tr>td>table .comic-images iframe {
+    max-width: 650px !important;
+    width: 100% !important;
+  }
   tr>td>center>p {
   font-size: 20px;
   }
-
+}
 .row {
 }
 
