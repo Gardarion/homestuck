@@ -50,6 +50,46 @@ width: 650px!important;
   display: table-row;
 }
 
+@media screen and (max-width: 1023px) {
+  #page {
+    max-width: 650px;
+    width: 100%;
+  }
+  .row>table {
+    max-width: 650px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .row>div>img {
+    max-width: 650px !important;
+    width: 100% !important;
+  }
+  .row>table>tbody>tr>td {
+    max-width: 650px;
+    width: 100%;
+  }
+  .row>table>tbody>tr>td>table {
+    max-width: 650px;
+    width: 100%;
+  }
+  .row>table>tbody>tr>td>table table {
+    max-width: 650px !important;
+    width: 100% !important;
+  }
+  .row>table>tbody>tr>td>table .comic-images img {
+    max-width: 650px !important;
+    width: 100% !important;
+  }
+  #kartinka {
+    max-width: 650px !important;
+    width: 100% !important;
+  }
+  .row>table>tbody>tr>td>table .comic-images iframe {
+    max-width: 650px !important;
+    width: 100% !important;
+  }
+}
+
 .header {
   background: #0E4603;
   border-bottom: 7px solid #082A00;
